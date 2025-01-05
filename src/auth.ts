@@ -10,5 +10,8 @@ export const {
   signOut,
 } = NextAuth({
   adapter: DrizzleAdapter(db),
+  providers: [
+ 
+  ],
 
 });
