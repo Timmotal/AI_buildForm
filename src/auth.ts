@@ -11,7 +11,10 @@ export const {
 } = NextAuth({
   adapter: DrizzleAdapter(db),
   providers: [
- 
+    GoogleProvider({
+      clientId: process.env.GOOGLE_CLIENT_ID,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+    }),
   ],
 
 });
