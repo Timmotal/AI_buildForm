@@ -17,6 +17,9 @@ export const {
     }),
   ],
   callbacks: {
-  
+    async session({ session, user }: { session: Session; user?: User }) {
+     
+     
+    },
   },
 });
