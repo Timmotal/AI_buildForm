@@ -18,7 +18,9 @@ export const {
   ],
   callbacks: {
     async session({ session, user }: { session: Session; user?: User }) {
-     
+      if (user && session?.user) {
+        session.user.id = user.id;
+      }
      
     },
   },
