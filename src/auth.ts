@@ -21,7 +21,7 @@ export const {
       if (user && session?.user) {
         session.user.id = user.id;
       }
-     
+      return session;
     },
   },
 });
