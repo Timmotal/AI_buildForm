@@ -4,4 +4,5 @@ import './globals.css'
 
 import PlausibleProvider from 'next-plausible'
 
+const inter = Inter({ subsets: ['latin'] })
 
