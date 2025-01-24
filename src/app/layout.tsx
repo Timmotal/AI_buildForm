@@ -18,7 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-
+      <head>
+        <PlausibleProvider domain={process.env.PLAUSIBLE_DOMAIN || ""} />
+      </head>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
