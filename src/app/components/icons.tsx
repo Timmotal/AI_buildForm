@@ -12,5 +12,11 @@ import {
   export type Icon = LucideIcon;
   
   export const Icons = {
-
+    library: Library,
+    lineChart: LineChart,
+    pieChart: PieChart,
+    settings2: Settings2,
+    settings: Settings,
+    userRoundCog: UserRoundCog,
+    list: List,
   }
