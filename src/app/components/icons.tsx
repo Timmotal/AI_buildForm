@@ -9,3 +9,5 @@ import {
     type IconNode as LucideIcon
   } from "lucide-react";
   
+  export type Icon = LucideIcon;
+  
