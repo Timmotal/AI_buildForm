@@ -5,6 +5,8 @@ type Props = {
 }
 
 const ProgressBar = (props: Props) => {
-  
+  return (
+ 
+  )
 }
 
