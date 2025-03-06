@@ -4,3 +4,7 @@ type Props = {
   value: number
 }
 
+const ProgressBar = (props: Props) => {
+  
+}
+
