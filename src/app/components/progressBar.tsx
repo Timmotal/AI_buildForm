@@ -12,3 +12,4 @@ const ProgressBar = (props: Props) => {
   )
 }
 
+export default ProgressBar
