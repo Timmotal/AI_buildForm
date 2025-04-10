@@ -28,6 +28,6 @@ const CardHeader = React.forwardRef<
     {...props}
   />
 ))
-
+CardHeader.displayName = "CardHeader"
 
 export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent }
