@@ -31,3 +31,7 @@ const CardHeader = React.forwardRef<
 CardHeader.displayName = "CardHeader"
 
 export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent }
+
+CardTitle.displayName = "CardTitle"
+
+
