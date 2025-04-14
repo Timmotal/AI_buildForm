@@ -34,4 +34,6 @@ export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent }
 
 CardTitle.displayName = "CardTitle"
 
-
+const CardDescription = React.forwardRef<
+  HTMLParagraphElement,
+  React.HTMLAttributes<HTMLParagraphElement>
