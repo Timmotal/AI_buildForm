@@ -39,3 +39,12 @@ const FormField = <
     </FormFieldContext.Provider>
   )
 }
+
+const useFormField = () => {
+  const fieldContext = React.useContext(FormFieldContext)
+  
+
+
+
+
+
