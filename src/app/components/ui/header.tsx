@@ -12,7 +12,7 @@ function SignOut() {
       'use server';
       await signOut()
     }}>
-
+      <Button type="submit">Sign out</Button>
     </form>
   )
 }
