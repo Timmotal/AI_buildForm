@@ -10,7 +10,7 @@ function SignOut() {
   return (
     <form action={async () => {
       'use server';
-
+      await signOut()
     }}>
 
     </form>
