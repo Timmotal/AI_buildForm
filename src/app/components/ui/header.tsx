@@ -6,3 +6,6 @@ import Link from 'next/link';
 
 type Props = {}
 
+function SignOut() {
+
+}
