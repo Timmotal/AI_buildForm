@@ -26,7 +26,10 @@ const Header = async (props: Props) => {
           session?.user ? (
             <div className="">
              
-             
+              {session.user.name && session.user.image &&
+            
+              }
+        
             </div>
           ) : (
 
