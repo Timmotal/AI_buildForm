@@ -16,3 +16,15 @@ function SignOut() {
     </form>
   )
 }
+const Header = async (props: Props) => {
+  const session = await auth();
+
+  return (
+    <header className=''>
+      <div className=''><h1>AI Form Builder</h1><div>
+       </div>
+    </nav></header>
+  )
+}
+
+export default Header
