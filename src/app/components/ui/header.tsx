@@ -22,7 +22,13 @@ const Header = async (props: Props) => {
   return (
     <header className=''>
       <div className=''><h1>AI Form Builder</h1><div>
-       </div>
+        {
+          session?.user ? (
+           
+          ) : (
+
+          )
+        }</div></div>
     </nav></header>
   )
 }
