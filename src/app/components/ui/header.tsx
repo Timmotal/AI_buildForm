@@ -24,7 +24,10 @@ const Header = async (props: Props) => {
       <div className=''><h1>AI Form Builder</h1><div>
         {
           session?.user ? (
-           
+            <div className="">
+             
+             
+            </div>
           ) : (
 
           )
