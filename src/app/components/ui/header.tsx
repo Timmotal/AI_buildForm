@@ -27,7 +27,12 @@ const Header = async (props: Props) => {
             <div className="">
              
               {session.user.name && session.user.image &&
-            
+                <Image
+                  src={session.user.image}
+                  alt={session.user.name}
+                  width={32}
+                  height={32}
+                  className='rounded-full' />
               }
         
             </div>
