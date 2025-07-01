@@ -26,7 +26,7 @@ const Header = async (props: Props) => {
           session?.user ? (
             <div className="flex items-center gap-4">
               <Link href="/view-forms">
-              </Link>
+                <Button variant="outline">Dashboard</Button></Link>
               {session.user.name && session.user.image &&
                 <Image
                   src={session.user.image}
