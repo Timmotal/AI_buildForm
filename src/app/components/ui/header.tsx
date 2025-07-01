@@ -35,7 +35,7 @@ const Header = async (props: Props) => {
                   height={32}
                   className='rounded-full' />
               }
-        
+              <SignOut />
             </div>
           ) : (
 
