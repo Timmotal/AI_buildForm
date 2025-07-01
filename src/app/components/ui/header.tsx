@@ -38,7 +38,7 @@ const Header = async (props: Props) => {
               <SignOut />
             </div>
           ) : (
-
+            <Link href="/api/auth/signin"><Button variant="link">Sign in</Button></Link>
           )
         }</div></div>
     </nav></header>
